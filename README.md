@@ -162,4 +162,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ and lots of ☕**
 
-*Happy cooking! 🍳*
+*Happy cooking! 🍳* <img width="1896" height="868" alt="image" src="https://github.com/user-attachments/assets/908c2c65-b5a5-4fd7-a715-8847e774366c" />
+
