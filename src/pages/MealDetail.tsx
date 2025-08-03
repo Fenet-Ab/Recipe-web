@@ -6,7 +6,7 @@ import { ArrowLeftIcon } from 'lucide-react'
 export default function MealDetail() {
   const { id } = useParams();
   const [meal, setMeal] = useState<any>(null);
-  const navigate = useNavigate(); // ✅ Moved to top level
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     if (id) {
