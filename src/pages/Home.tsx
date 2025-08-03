@@ -50,7 +50,14 @@ export default function Home() {
                 <CategoryTabs onSelect={handleCategory} />
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 mt-4">
                     {meals?.map((meal: any) => (
-                        <MealCard key={meal.idMeal} id={meal.idMeal} title={meal.strMeal} image={meal.strMealThumb} />
+                        <MealCard 
+                            key={meal.idMeal} 
+                            id={meal.idMeal} 
+                            title={meal.strMeal} 
+                            image={meal.strMealThumb}
+                            category={meal.strCategory}
+                            area={meal.strArea}
+                        />
                     ))}
                 </div>
             </div>
