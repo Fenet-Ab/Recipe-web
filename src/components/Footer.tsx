@@ -4,7 +4,7 @@ import { facebook, linkedin, telegramIcon} from "@/assets/asset"
 
 const Footer = () => {
   return (
-    <div><footer className="bg-orange-500 text-gray-800 mt-40 text-white">
+    <div><footer className="bg-gray-900 text-gray-800 mt-40 text-white">
     <div className="max-w-6xl mx-auto px-4 py-10">
       <div className="flex flex-col md:flex-row justify-between">
         {/* About Section */}

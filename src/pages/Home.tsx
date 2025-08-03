@@ -27,12 +27,13 @@ export default function Home() {
 
     return (
         <div className=" w-full">
-                         <div className="flex flex-col bg-cover bg-center w-full h-120 relative" style={{ backgroundImage: `url(${meal3})` }}>
+                         <div className="flex flex-col bg-cover bg-center w-full h-screen relative" style={{ backgroundImage: `url(${meal3})` }}>
 
                  <div className="flex justify-center w-full pt-20 sm:pt-30">
                      <SearchBar onSearch={handleSearch} />
                  </div>
-                 <div className=" bg-black bg-opacity-40 rounded-xl w-11/12 sm:w-3/4 md:w-1/2 mx-auto text-center p-4 sm:p-6 mt-8">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent"></div>
+                 <div className="   rounded-xl w-11/12 sm:w-3/4 md:w-1/2 mx-auto text-center p-4 sm:p-6 mt-8 opacity-100">
                      <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center">Discover Delicious Recipes</h1>
                      <p className="text-white text-sm sm:text-base md:text-lg leading-relaxed">
                          Find your next favorite meal from around the world. Search by ingredients, explore categories,
